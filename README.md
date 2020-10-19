@@ -1,2 +1,2 @@
 # Wine
-Final Project
+Determining wine scores based on weather data.
