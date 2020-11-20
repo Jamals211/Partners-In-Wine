@@ -1,7 +1,7 @@
 # <b> Partners In Wine <b>
 
 <p align="center">
-  <img src="Vineyard-chalk-soil.jpg" width="850">
+  <img src="Images/Vineyard-chalk-soil.jpg" width="850">
 </p>
 
 Final Project
