@@ -10,13 +10,13 @@ Final Project
 The purpose of this project is to determine how weather impacts the scores of wine.
 
 
- ***[Link to the web app](https://groupfive-wine.herokuapp.com/)***
+ ***Link to web app: [Web App](https://groupfive-wine.herokuapp.com/)***
  
    ***Link to rough draft of our presentation on google slides:[Wine Quality Machine Leanring](https://docs.google.com/presentation/d/1-MctTWS8TrRcArjXzD5Xvzrx4bVrTv7aOP1SWWkiZ2g/edit?usp=sharing)***
 
 ***Link to our Tableau dashboard: [Wine Quality Dashboard](https://public.tableau.com/profile/valencia.loyd2616#!/vizhome/Group_5_wine_16046307141490/PartnersinWine?publish=yes)***
 
-***[Link to the web app repository](https://github.com/soijebor/groupfive-wine#groupfive-wine)***
+***Link to the repository[Web App Repository](https://github.com/soijebor/groupfive-wine#groupfive-wine)***
 
 
   
