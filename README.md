@@ -7,7 +7,7 @@
 Final Project
 
 ## Purpose
-The purpose of this project is to determine how weather impacts the scores of wine.
+The purpose of this project is to determine how weather and soil impacts the quality of wine.
 
 
  ***Link to web app: [Web App](https://groupfive-wine.herokuapp.com/)***
