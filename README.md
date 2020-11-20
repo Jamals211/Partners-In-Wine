@@ -36,4 +36,4 @@ My role in this part of the project was to create the HTML and then work on gett
 I imported photos, found a good template online, and then went to work cleaning up the template and importing the photos to the HTML. An example of the HTML can be found under the folder HTML. Some of the challenges in creating the index.html file included fixing the plug-ins to display the right data and correcting the JavaScipt to fit our needs.
 
 ## Flask App
-I worked with the group to develop the flask app to display the HTML and to use the model to determine whether a wine was of "High Quality" or "Low Quality". 
+I worked with the group to develop the flask app to display the HTML and to use the model to determine whether a wine was of "High Quality" or "Low Quality". The flask app uses a static folder to hold all of the images, JavaScript, css, and other files to work with the HTML to produce the app. The templates file holds the HTML, and the app.py file works with the red and white scalar files to produce the app and work with the model.
