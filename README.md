@@ -44,7 +44,7 @@ Once the weather and wine data was imported using the APIs, we identified the we
 My role in this part of the project was to create the HTML and then work on getting the Flask App to access the machine learning model to work with the HTML
 
 <p align="center">
-  <img src="Images/Capture.jpg" width="850">
+  <img src="Images/Capture.PNG" width="850">
 </p>
 
 ## HTML
