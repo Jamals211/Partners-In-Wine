@@ -43,6 +43,10 @@ Once the weather and wine data was imported using the APIs, we identified the we
 # Second Segment
 My role in this part of the project was to create the HTML and then work on getting the Flask App to access the machine learning model to work with the HTML
 
+<p align="center">
+  <img src="Images/Capture.jpg" width="850">
+</p>
+
 ## HTML
 I imported photos, found a good template online, and then went to work cleaning up the template and importing the photos to the HTML. An example of the HTML can be found under the folder HTML. Some of the challenges in creating the index.html file included fixing the plug-ins to display the right data and correcting the JavaScipt to fit our needs.
 
