@@ -4,7 +4,7 @@
   <img src="Images/Vineyard-chalk-soil.jpg" width="850">
 </p>
 
-Final Project
+Determine how weather and soil impact the quality of wine.
 
 ## Purpose
 The purpose of this project is to determine how weather and soil impacts the quality of wine.
