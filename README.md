@@ -4,8 +4,6 @@
   <img src="Images/Vineyard-chalk-soil.jpg" width="850">
 </p>
 
-Final Project
-
 ## Purpose
 The purpose of this project is to determine how weather and soil impacts the quality of wine.
 
@@ -26,8 +24,16 @@ The purpose of this project is to determine how weather and soil impacts the qua
 My role in this project was to research data on weather and and global wine scores, import the data using APIs, merge the data, and clean the data.  NOAA and the Global Wine Score websites are terrific resources for finding weather and wine data. 
 
 ## Data Cleaning
+## Wine Score Data
 This step involved importing APIs to call weather, wine and soil data. The data was collected from Global Wine Scores, NOAA, and the USGS website. It was then cleaned and finally merged together. Data was split between white wine and red wine before the weather and soil data was merged with it. The Global Wine Scores website has data for wines, the regions that they were grown in, and the scores associated with each wine. These vintages range from 1992 to 2016 and have an average score of approximately 91%. 
  The wine data takes different wines and scores going back to 1992.<p>
+  
+### Calculation-Normalization Process For Wine Score
+The Global Wine Score scale takes into account wine rated by different pools of critics(French critics vs English critics vs American critics), the severity of each critic(some critics might be harsher than other critics), and the evolution of wine ratings. <p>
+
+It does this by normalizing data. Normalize data from diff critics(Analyze Cumulative Distribution Function) CDF of the ratings. If critic A graded more harshly and crtic B graded liently then the CDF process would balance those. The score can be applied to any critic by converting to the Robert Parker 100 pt scale.<p>
+  
+## Weather Data
 
 Some of the challenges for finding the best weather data was to find zip codes that have reliable temperature and precipitation data. Most of the zip codes had data that originated before 1992 but the stations had missig dates for temperature, precipitation, or both of the values. The process for finding optimal stations involved an iterative process of importing different zip codes for temperature data and different zip codes for precipitation data to determine which zip codes have the best coverage of data. Another challenge to merging weather and wine data was that several appellations (regions) within a state straddled two different zip codes. One of the assumptions this study has made was that weather data would be the same for zip codes that were within 50 mile radius of one another. This allowed the group to assign zip codes for certain appellations and allowed the data to be merged together more succinctly. The wine data comes from wine that is concentrated in Washington State, Oregon, Napa Valley California, Sonoma County California, and the Santa Cruz Mountains in California as well. There were some appellations that only have one or two data points that were dropped from the study.<p>
 
@@ -42,6 +48,10 @@ Once the weather and wine data was imported using the APIs, we identified the we
 
 # Second Segment
 My role in this part of the project was to create the HTML and then work on getting the Flask App to access the machine learning model to work with the HTML
+
+<p align="center">
+  <img src="Images/Capture.PNG" width="850">
+</p>
 
 ## HTML
 I imported photos, found a good template online, and then went to work cleaning up the template and importing the photos to the HTML. An example of the HTML can be found under the folder HTML. Some of the challenges in creating the index.html file included fixing the plug-ins to display the right data and correcting the JavaScipt to fit our needs.
